@@ -5,7 +5,7 @@ No more to say，let's begin;
 # First create
     LjjUISegmentedControl* ljjuisement=[[LjjUISegmentedControl alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, self.view.frame.size.height)];
     NSArray* ljjarray=[NSArray arrayWithObjects:@"未领餐",@"待付款",@"已领餐",@"退款",nil];
-    [ljjuisement AddSegumentArray:fuckarray];
+    [ljjuisement AddSegumentArray:ljjarray];
     About ljjarray:You can add any object whose type is "NSString",it is like the segmentTitle of UISegmentedControl;
 # Change the background color
     ljjuisement.LJBackGroundColor=[UIColor BlackColor];
